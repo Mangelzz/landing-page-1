@@ -12,7 +12,7 @@ const Nosotros = () => {
       <div className="contenido-nosotros">
         <div className="imagen">
           <img
-            src="../../public/assets/images/nosotros.jpg"
+            src="assets/images/nosotros.jpg"
             alt="Imagen sobre nosotros"
           />
         </div>
