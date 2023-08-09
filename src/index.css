@@ -40,6 +40,8 @@ img {
   border-radius: 1rem;
   transition: all 0.3s ease-in-out;
   text-align: center;
+  border: none;
+  cursor: pointer;
 }
 .btn:hover {
   background-color: #80aa03;
@@ -305,4 +307,44 @@ img {
 .galeria img:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+/* Formulario */
+.formulario {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+.formulario fieldset {
+  border: 1px solid #e1e1e1;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.formulario legend {
+  background-color: #036eac;
+  color: #FFF;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 4rem;
+}
+
+.campo {
+  display: flex;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.campo label {
+  flex-basis: 10rem;
+  font-weight: 700;
+}
+.campo input[type="text"], .campo input[type="email"], .campo textarea,
+.campo select, .campo input[type="tel"], .input-datalist {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid #e1e1e1;
+  outline: none;
+  border-radius: 1rem;
+  resize: none;
 }
