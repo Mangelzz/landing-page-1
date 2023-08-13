@@ -179,7 +179,7 @@ img {
 
 /* Nosotros */
 .sobre-nosotros {
-    background-image: linear-gradient(to bottom, transparent 50%, #037bc0 50%, #037bc0 100%), url('public/assets/images/nosotros.jpg');
+    background-image: linear-gradient(to bottom, transparent 50%, #037bc0 50%, #037bc0 100%), url('/assets/images/nosotros.jpg');
     background-position: center, top left;
     background-repeat: no-repeat;
     background-size: 100%, 70rem;
@@ -187,7 +187,7 @@ img {
 
 @media (min-width: 768px) {
     .sobre-nosotros {
-        background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%), url('public/assets/images/nosotros.jpg');
+        background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%), url('/assets/images/nosotros.jpg');
         background-position: left center;
         padding: 10rem 0;
         background-size: 100%, 160rem;
