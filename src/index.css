@@ -59,7 +59,6 @@ img {
     }
 }
 
-
 .text-center {
     text-align: center;
 }
@@ -122,7 +121,7 @@ img {
 }
 
 .hero {
-    background-image: url("public/assets/images/principal.jpg");
+    background-image: url("/assets/images/principal.jpg");
     background-position: center;
     background-size: cover;
     height: 25rem;
